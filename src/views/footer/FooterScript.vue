@@ -4,7 +4,7 @@ export default {
   name: "Footer",
   data() {
     return {
-      copyRights: { text: "< © 2020 WIP >" },
+      copyRights: { text: "<© 2020>" },
       socialMedia: {
         phone: {
           name: "phone",
@@ -22,9 +22,14 @@ export default {
           url: "https://join.skype.com/invite/As97YswyTGYK",
         },
         // linkedin: { name: "linkedin", iconClass: "fab fa-linkedin", url: "" },
-        facebook: { name: "facebook", iconClass: "fab fa-facebook", url: "" },
+        // facebook: { name: "facebook", iconClass: "fab fa-facebook", url: "" },
       },
       credits: {
+      expressjs: {
+          name: "expressjs",
+          iconClass: "fab fa-node",
+          url: "https://expressjs.com/",
+        },
         vue: {
           name: "vue",
           iconClass: "fab fa-vuejs",

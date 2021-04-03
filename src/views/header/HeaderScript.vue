@@ -7,7 +7,6 @@ export default {
       header: {
         scrumTools: { name: "SCRUM tools", url: "" },
         gitRepo: { name: "Repository", url: "" },
-        credits: { name: "Credits", url: "" },
       },
       linkedin: {
         imgUrl:
