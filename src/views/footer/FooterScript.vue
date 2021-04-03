@@ -4,7 +4,6 @@ export default {
   name: "Footer",
   data() {
     return {
-      copyRights: { text: "<© 2020>" },
       socialMedia: {
         phone: {
           name: "phone",

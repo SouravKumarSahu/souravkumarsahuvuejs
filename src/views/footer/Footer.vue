@@ -11,21 +11,21 @@
           role="button"
           ><i :class="link.iconClass"></i
         ></a>
-        <a class="btn-lg m-1 p-0"
+        <a
+          class="btn-lg m-1 p-0"
           style="color: purple"
           :href="heroku.url"
           role="button"
-          >{{heroku.name}}</a>
+          >{{ heroku.name }}</a
+        >
       </div>
-
-      <i>{{ copyRights.text }}</i>
 
       <div class="float-right">
         <a
           v-for="link in socialMedia"
           :key="link.name"
           class="btn-lg m-1"
-          style="color: blue"
+          style="color: #00BFFF"
           :href="link.url"
           role="button"
           ><i :class="link.iconClass"></i
